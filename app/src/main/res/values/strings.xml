@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Laboratorio02</string>
+    <string name="under_weigth_text">UnderWeigth</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="bmi_text">BMI</string>
+    <string name="kg_text">Kg</string>
 </resources>
