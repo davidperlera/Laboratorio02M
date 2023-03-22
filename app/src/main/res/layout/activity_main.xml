@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/layout_background"
+    android:gravity="center_horizontal"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/extra_small_gap"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/card_width"
+        android:layout_height="@dimen/card_heith"
+        android:backgroundTint="@color/card_background"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        android:elevation="@dimen/card_elavation"
+        app:cardMaxElevation="@dimen/card_elavation"
+        android:layout_marginTop="@dimen/small_gap"/>
+
+</LinearLayout>
